@@ -1,5 +1,4 @@
 from datetime import datetime
-import pymysql
 
 class DatabaseStandard(object):
     def __init__(self, conn):
