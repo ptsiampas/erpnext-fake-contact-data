@@ -12,6 +12,7 @@ fake = Faker('en_AU')
 API_KEY = '69470f91-3b90-464b-82bd-6938683ed7cd'
 codesearch = PAC(API_KEY)
 
+# Change this line to suite your environment.
 connection = mysql.connector.connect(user='root', password='1234',
                                      host='127.0.0.1', port=3307,
                                      database='frappe')
